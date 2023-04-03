@@ -1,5 +1,4 @@
 <?php
-  $url = $_SERVER['REQUEST_URI'];
-  echo "$url <br>";
-  echo "123";
+ini_set('display_errors', 1);
+require_once 'Application/bootstrap.php';
 ?>
