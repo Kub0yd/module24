@@ -7,7 +7,7 @@ class Route
 		$controller_name = 'Main';
         $action_name = 'index';
 	    $routes = $_GET['url'];
-		echo $routes;
+		
 		// получаем имя контроллера
 		if ( !empty($routes) )
 		{	
@@ -17,7 +17,6 @@ class Route
 		// добавляем префиксы
 		$model_name = 'model_'.$controller_name;
 		$controller_name = 'controller_'.$controller_name;
-
 		$action_name = 'action_'.$action_name;
 		// подцепляем файл с классом модели (файла модели может и не быть)
 		$model_file = strtolower($model_name).'.php';
