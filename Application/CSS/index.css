@@ -1,90 +1,89 @@
 html {
     background-color: #f8f7f5;
-}
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-   }
- 
-   header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-   }
- 
-   header img {
-    float: left;
-   }
- 
-   header nav {
-    float: right;
-   }
- 
-   header a {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 60px;
-   }
- 
-   main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    
     background-size: cover;
-    margin-top: 80px; /* отступ от header */
-   }
- 
-   /* main .text-block {
-    width: 40%;
-    margin-right: 20px;
-    position: absolute;
-    left: 882px;
-    top: 179px;
-   } */
-   main .text-block {
-    width: 40%;
-    margin-right: 20px;
-    position: absolute;
-    left: 882px;
-    top: 179px;
-   }
- 
-   main h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-   }
- 
-   main p {
-    font-size: 18px;
-    line-height: 1.5;
-   }
-   main img {
-    margin-left: -20px;
-    margin-top: -40px;
-    width: 78%;
-    /* height: 30%; */
-   }
-   footer {
-    background-color: #ccc;
-    padding: 40px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-   }
- 
-   footer p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-   }
+    background-image: url("/module24/Application/images/background.jpg");
+    background-repeat: no-repeat;
+}
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif; 
+        
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    header img {
+        float: left;
+    }
+    
+    header nav {
+        float: right;
+    }
+    
+    header a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 60px;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        margin-top: 80px; /* отступ от header */
+    }
+    
+    main .text-block {
+        width: 40%;
+        margin-right: 20px;
+        position: absolute;
+        left: 1300px;
+        top: 179px;
+    }
+    
+    table, th, td {
+        border: 1px solid;
+      }
+
+    main h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    
+    main p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    main img {
+        margin-left: -20px;
+        margin-top: -40px;
+        width: 78%;
+        /* height: 30%; */
+    }
+    footer {
+        background-color: #ccc;
+        padding: 40px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    footer p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+    }

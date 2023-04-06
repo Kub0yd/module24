@@ -10,15 +10,16 @@
    <header>
       <img src="logo.png" alt="Логотип">
       <nav>
-       <a href="#">Ссылка 1</a>
-       <a href="#">Ссылка 2</a>
+       <a href="./index.php">Главная</a>
+       <a href="./index.php?url=portfolio">Портфолио</a>
        <a href="#">Ссылка 3</a>
       </nav>
      </header>
      
      <main>
+      <div class="text-block">
         <?php include $content_view; ?>
-        <img src="Application/images/background.jpg" alt="Изображение">
+      </div>  
      </main>
     
      <footer>
