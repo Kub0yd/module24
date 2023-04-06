@@ -8,14 +8,13 @@
   </head>
   <body>
    <header>
-      <img src="logo.png" alt="Логотип">
+      <p>SPA LAND</p>
       <nav>
        <a href="./index.php">Главная</a>
        <a href="./index.php?url=portfolio">Портфолио</a>
        <a href="#">Ссылка 3</a>
       </nav>
      </header>
-     
      <main>
       <div class="text-block">
         <?php include $content_view; ?>
