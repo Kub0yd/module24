@@ -3,7 +3,7 @@
 
 Тема: "MVC - архитектура"
 
-
+## Задание 1
 ### Структура
 * [Application](./Application/) - папка со структурой фреймворка
 
@@ -27,6 +27,10 @@
         * [view_contacts.php](./Application/Views/view_contacts.php) - код представления страницы Контакты
     * [bootstrap.php](./Application/bootstrap.php) - подгрузчик компонентов
 * [index.php](./index.php) - основной файл фреймворка
+
+## Задание 2
+### Подключение php-gd
+![](./php-gd.png)
 ## Используемые технологии
 * PHP
 * HTML
