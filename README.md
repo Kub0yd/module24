@@ -22,7 +22,7 @@
         * [model_addresses.php](./Application/Models/model_addresses.php) -  файл с моделью подгружаемых данных на страницу Контакты
     * [Views](./Application/Views/) - все представления проекта для каждой страницы сайта.
         * [feedback_view.php](./Application/Views/feedback_view.php) - код представления страницы Отзывы
-        * [main_view.php)(./Application/Views/main_view.php) - код представления главной страницы
+        * [main_view.php](./Application/Views/main_view.php) - код представления главной страницы
         * [template_view.php](./Application/Views/template_view.php) - шаблон сайта
         * [view_contacts.php](./Application/Views/view_contacts.php) - код представления страницы Контакты
     * [bootstrap.php](./Application/bootstrap.php) - подгрузчик компонентов
